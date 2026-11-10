@@ -1,0 +1,25 @@
+{
+  "name": "munafa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Munafa: a voice-first AI profit coach for street vendors (MERN capstone prototype)",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c yellow,green \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "start": "npm run start -w server",
+    "seed": "npm run seed -w server",
+    "test": "npm test -w server",
+    "parser:eval": "npm run parser:eval -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

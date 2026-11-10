@@ -1,0 +1,13 @@
+{
+  "name": "Munafa: AI Profit Coach",
+  "short_name": "Munafa",
+  "description": "Speak your purchases and sales, see today's profit.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF7EF",
+  "theme_color": "#1F2A24",
+  "lang": "hi-IN",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
